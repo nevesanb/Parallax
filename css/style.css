@@ -1,0 +1,89 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.img-banner-titulo1{
+	height: 100vh;
+	background: url("../assets/praias.jpg") center center/cover;
+	background-blend-mode: color;
+	background-color: rgba(0, 0, 0, 0.5);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-attachment: fixed;
+}
+
+
+.img-banner-praias{
+	height: 100vh;
+	background: url("../assets/praias.jpg") center center/cover;
+	background-blend-mode: color;
+	background-color: rgba(0, 0, 0, 0.5);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-attachment: fixed;
+}
+
+
+.img-banner-montanhas{
+	height: 100vh;
+	background: url("../assets/montanhas.jpg") center center/cover;
+	background-blend-mode: color;
+	background-color: rgba(0, 0, 0, 0.5);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-attachment: fixed;
+}
+
+
+.img-banner-Florestas{
+	height: 100vh;
+	background: url("../assets/Florestas.jpg") center center/cover;
+	background-blend-mode: color;
+	background-color: rgba(0, 0, 0, 0.5);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-attachment: fixed;
+}
+
+
+
+.titulo {
+	color: #ffffff;
+}
+
+.icon {
+	position: absolute;
+	bottom: 20px;
+	right: 20px;
+	color: white;
+	font-size: 80px;
+	position: fixed;
+}
+
+.texto-praia{
+	padding-top: 5vh;
+	padding-left: 20vh;
+	padding-right: 20vh;
+	padding-bottom: 5vh;
+}
+
+.texto-montanhas{
+	padding-top: 5vh;
+	padding-left: 20vh;
+	padding-right: 20vh;
+	padding-bottom: 5vh;
+}
+
+.texto-Florestas{
+	padding-top: 5vh;
+	padding-left: 20vh;
+	padding-right: 20vh;
+	padding-bottom: 5vh;
+}
+
